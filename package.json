@@ -24,7 +24,7 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "eslint": "^9.39.4",
-    "lint-staged": "^15.5.2",
+    "lint-staged": "^16.4.0",
     "renovate": "^39.264.1",
     "simple-git-hooks": "^2.13.1"
   },
