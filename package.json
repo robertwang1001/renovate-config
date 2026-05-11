@@ -21,8 +21,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.19.0",
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/cli": "^21.0.0",
+    "@commitlint/config-conventional": "^21.0.0",
     "eslint": "^9.39.4",
     "lint-staged": "^15.5.2",
     "renovate": "^39.264.1",
