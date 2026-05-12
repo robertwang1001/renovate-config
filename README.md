@@ -23,7 +23,7 @@ To use these presets in projects, extend the desired preset(s) in the `renovate.
 ```json
 {
   "extends": [
-    "github>GloryWong/renovate-config"
+    "github>robertwang1001/renovate-config"
   ]
 }
 ```
@@ -33,7 +33,7 @@ To use these presets in projects, extend the desired preset(s) in the `renovate.
 ```json
 {
   "extends": [
-    "github>GloryWong/renovate-config:npm"
+    "github>robertwang1001/renovate-config:npm"
   ]
 }
 ```

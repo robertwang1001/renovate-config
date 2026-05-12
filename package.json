@@ -4,14 +4,14 @@
   "version": "1.2.1",
   "description": "Shared Renovate Configurations",
   "author": {
-    "name": "Glory Wong",
+    "name": "Robert Wang",
     "email": "glorywong1001@gmail.com",
     "url": "https://glorywong.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/GloryWong/renovate-config#readme",
-  "repository": "github:GloryWong/renovate-config",
-  "bugs": "https://github.com/GloryWong/renovate-config/issues",
+  "homepage": "https://github.com/robertwang1001/renovate-config#readme",
+  "repository": "github:robertwang1001/renovate-config",
+  "bugs": "https://github.com/robertwang1001/renovate-config/issues",
   "keywords": [],
   "scripts": {
     "test": "renovate-config-validator default.json",
@@ -20,12 +20,12 @@
     "lint:fix": "pnpm lint --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0",
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "eslint": "^9.39.4",
-    "lint-staged": "^15.5.2",
-    "renovate": "^39.264.1",
+    "@antfu/eslint-config": "^9.0.0",
+    "@commitlint/cli": "^21.0.0",
+    "@commitlint/config-conventional": "^21.0.0",
+    "eslint": "^10.3.0",
+    "lint-staged": "^17.0.4",
+    "renovate": "^43.150.0",
     "simple-git-hooks": "^2.13.1"
   },
   "simple-git-hooks": {
