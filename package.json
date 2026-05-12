@@ -14,7 +14,7 @@
   "bugs": "https://github.com/robertwang1001/renovate-config/issues",
   "keywords": [],
   "scripts": {
-    "test": "renovate-config-validator default.json",
+    "test": "renovate-config-validator --no-global renovate.json default.json npm.json deno.json",
     "prepare": "pnpm simple-git-hooks",
     "lint": "eslint .",
     "lint:fix": "pnpm lint --fix"

@@ -2,12 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>robertwang1001/renovate-config",
-    "npm:unpublishSafe",
+    "security:minimumReleaseAgeNpm",
     "helpers:disableTypesNodeMajor"
   ],
   "packageRules": [
     {
-      "packageNames": [
+      "matchPackageNames": [
         "node"
       ],
       "enabled": false
