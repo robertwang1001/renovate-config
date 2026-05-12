@@ -3,12 +3,16 @@ name: release-please
 on:
   push:
     branches:
-      - master
+      - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 jobs:
   release-please:
