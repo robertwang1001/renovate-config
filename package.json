@@ -19,13 +19,13 @@
     "lint:fix": "pnpm lint --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.0.0",
-    "@commitlint/cli": "^21.0.0",
-    "@commitlint/config-conventional": "^21.0.0",
-    "eslint": "^10.3.0",
-    "lint-staged": "^17.0.4",
-    "renovate": "^43.150.0",
-    "simple-git-hooks": "^2.13.1"
+    "@antfu/eslint-config": "^9.5.1",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "eslint": "^10.9.1",
+    "lint-staged": "^17.4.1",
+    "renovate": "^43.288.0",
+    "simple-git-hooks": "^2.14.0"
   },
   "simple-git-hooks": {
     "commit-msg": "pnpm commitlint --edit ${1}",
